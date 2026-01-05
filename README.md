@@ -3,7 +3,7 @@ Retail sales analytics using Databricks, Spark, and Delta Lake
 
 # Databricks Level 1 – Retail Sales Analytics
 
-## 📌 Project Overview
+## Project Overview
 This project demonstrates a Level 1 Databricks data engineering workflow using
 Apache Spark and Delta Lake. The goal is to ingest, clean, and analyze retail
 sales data using a lakehouse approach.
@@ -13,7 +13,7 @@ processing fundamentals.
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
     A[CSV File] --> B[Spark DataFrame]
     B --> C[Delta Table]
