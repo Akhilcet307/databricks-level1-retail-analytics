@@ -14,22 +14,10 @@ processing fundamentals.
 ---
 
 ## 🏗 Architecture
-CSV
- │
- ▼
-+-------------------+
-|  Spark DataFrame  |
-+-------------------+
- │
- ▼
-+----------------+
-|  Delta Table   |
-+----------------+
- │
- ▼
-+------------------+
-|  SQL Analytics   |
-+------------------+
+
+    A[CSV File] --> B[Spark DataFrame]
+    B --> C[Delta Table]
+    C --> D[SQL Analytics]
 
 ### Data Layers
 - **Raw Layer**: Original ingested data
